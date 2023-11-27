@@ -1,8 +1,13 @@
-//
-//  Screen_2_1.swift
-//  ios-itmo-2023-assignment-5
-//
-//  Created by e.biyik on 27.11.2023.
-//
+import SwiftUI
 
-import Foundation
+struct Screen_2_1: View {
+
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+
+}
+
+#Preview {
+    Screen_2_1()
+}

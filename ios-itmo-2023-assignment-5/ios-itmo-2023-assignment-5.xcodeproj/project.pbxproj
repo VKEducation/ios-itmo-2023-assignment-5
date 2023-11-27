@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		F4EEFFAF2B148A0300C32EBC /* ios_itmo_2023_assignment_5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EEFFAE2B148A0300C32EBC /* ios_itmo_2023_assignment_5App.swift */; };
-		F4EEFFB12B148A0300C32EBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EEFFB02B148A0300C32EBC /* ContentView.swift */; };
 		F4EEFFB32B148A0500C32EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EEFFB22B148A0500C32EBC /* Assets.xcassets */; };
 		F4EEFFB62B148A0500C32EBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EEFFB52B148A0500C32EBC /* Preview Assets.xcassets */; };
+		F4EEFFBF2B148AC200C32EBC /* Screen_1_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EEFFBE2B148AC200C32EBC /* Screen_1_1.swift */; };
+		F4EEFFC12B148ACC00C32EBC /* Screen_1_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EEFFC02B148ACC00C32EBC /* Screen_1_2.swift */; };
+		F4EEFFC42B148ADB00C32EBC /* Screen_2_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EEFFC32B148ADB00C32EBC /* Screen_2_1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4EEFFAB2B148A0300C32EBC /* ios-itmo-2023-assignment-5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-itmo-2023-assignment-5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EEFFAE2B148A0300C32EBC /* ios_itmo_2023_assignment_5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_itmo_2023_assignment_5App.swift; sourceTree = "<group>"; };
-		F4EEFFB02B148A0300C32EBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4EEFFB22B148A0500C32EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4EEFFB52B148A0500C32EBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4EEFFBE2B148AC200C32EBC /* Screen_1_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen_1_1.swift; sourceTree = "<group>"; };
+		F4EEFFC02B148ACC00C32EBC /* Screen_1_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen_1_2.swift; sourceTree = "<group>"; };
+		F4EEFFC32B148ADB00C32EBC /* Screen_2_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen_2_1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				F4EEFFAE2B148A0300C32EBC /* ios_itmo_2023_assignment_5App.swift */,
-				F4EEFFB02B148A0300C32EBC /* ContentView.swift */,
+				F4EEFFBC2B148A7F00C32EBC /* Part 1 */,
+				F4EEFFBD2B148A9100C32EBC /* Part 2 */,
 				F4EEFFB22B148A0500C32EBC /* Assets.xcassets */,
 				F4EEFFB42B148A0500C32EBC /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				F4EEFFB52B148A0500C32EBC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4EEFFBC2B148A7F00C32EBC /* Part 1 */ = {
+			isa = PBXGroup;
+			children = (
+				F4EEFFBE2B148AC200C32EBC /* Screen_1_1.swift */,
+				F4EEFFC02B148ACC00C32EBC /* Screen_1_2.swift */,
+			);
+			path = "Part 1";
+			sourceTree = "<group>";
+		};
+		F4EEFFBD2B148A9100C32EBC /* Part 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F4EEFFC32B148ADB00C32EBC /* Screen_2_1.swift */,
+			);
+			path = "Part 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4EEFFB12B148A0300C32EBC /* ContentView.swift in Sources */,
+				F4EEFFC42B148ADB00C32EBC /* Screen_2_1.swift in Sources */,
+				F4EEFFC12B148ACC00C32EBC /* Screen_1_2.swift in Sources */,
 				F4EEFFAF2B148A0300C32EBC /* ios_itmo_2023_assignment_5App.swift in Sources */,
+				F4EEFFBF2B148AC200C32EBC /* Screen_1_1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
